@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and Environments
+.pytest_cache/
+.venv/
+venv/
+env/
+edge_ai_env/
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Project Specific Database (SAB Excel & Config)
+sistem_akuntansi_baku.xlsx
+config_satker.json
+backups/
+Ekspor_*.pdf
+Spooler_Print_*.txt
+
+# PyInstaller / Compilation Outputs
+build/
+dist/
+*.spec
