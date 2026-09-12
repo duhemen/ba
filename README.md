@@ -43,7 +43,7 @@ Untuk mengubah skrip Python ini menjadi satu file eksekusi mandiri tanpa keterga
     ```
 3.  Eksekusi perintah kompilasi premium berikut di dalam direktori proyek:
     ```bash
-    pyinstaller --noconfirm --onedir --windowed --add-data "app_styles.py;." --add-data "form_widget.py;." --add-data "accounting_engine.py;." --add-data "report_generator.py;." --add-data "logo_keu.png;." --icon="C:\edge_ai\edge_ai.ico" --name "buku_akuntan" app_accounting_gui.py
+    pyinstaller --noconfirm --onedir --windowed --add-data "app_styles.py;." --add-data "form_widget.py;." --add-data "accounting_engine.py;." --add-data "report_generator.py;." --add-data "logo_keu.png;." --icon="edge_ai.ico" --name "buku_akuntan" app_accounting_gui.py
     ```
     *(Catatan: Jika ingin dikompresi menjadi satu file tunggal, Anda bisa mengganti argumen `--onedir` menjadi `--onefile`)*.
 4.  File executable final Anda akan berada di dalam folder `dist/buku_akuntan/buku_akuntan.exe`.
@@ -57,7 +57,7 @@ Untuk mengubah skrip Python ini menjadi satu file eksekusi mandiri tanpa keterga
 *   Masuk ke menu **📝 Entri Transaksi Baru**. Isilah Tanggal, Nomor Bukti Dokumen (Kuitansi/Faktur), Keterangan mutasi, pilih Akun Rekiran (Ref), masukkan nominal Debit/Kredit, lalu klik **🔒 Posting Transaksi**.
 
 ### 2. Pencarian Real-Time & Live Filtering
-*   Buka tab **Buku Jurnal Umum** atau **Jurnal Khusus**.
+*   Buka tab **Buku Jurnal Umum** or **Jurnal Khusus**.
 *   Ketik kata kunci tertentu (Misal: *"Gaji"*, *"Komputer"*, atau nominal tertentu) pada kolom pencarian bagian atas. Tabel interaktif PyQt6 akan langsung menyembunyikan baris yang tidak sesuai secara instan.
 
 ### 3. Mengubah Profil Satker
