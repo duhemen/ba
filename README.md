@@ -1,4 +1,4 @@
-# 📂 Sistem Informasi Akuntansi Premium - Imutabel Ledger (BP2JK Kalteng)
+# 📂 Sistem Informasi Akuntansi Premium - Imutabel Ledger
 
 ![Python](https://shields.io)
 ![PyQt6](https://shields.io)
