@@ -62,7 +62,7 @@ Untuk mengubah skrip Python ini menjadi satu file eksekusi mandiri tanpa keterga
 
 ### 3. Mengubah Profil Satker
 *   Masuk ke menu **⚙️ Pengaturan Satker**.
-*   Ganti Nama Instansi menjadi `Buku Pencatatan Akuntansi BP2JK_Kalteng` dan sub-judul menjadi `MANIFES LAPORAN KEUANGAN BP2JK KALTENG`.
+*   Ganti Nama Instansi menjadi `Buku Pencatatan Akuntansi (sesuai unor/upt/perusahaan)` dan sub-judul menjadi `MANIFES LAPORAN KEUANGAN (sesuai unor/upt/perusahaan)`.
 *   Klik **Cari File** untuk mengarahkan ke berkas gambar `logo_keu.png` Anda di komputer, sesuaikan ukuran font laporan, kemudian klik **💾 Simpan Perubahan Pengaturan**.
 
 ### 4. Melakukan Ekspor Dokumen & Cetak Fisik
